@@ -705,11 +705,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1464934283}
+  - {fileID: 1751804331}
+  - {fileID: 938755061}
+  - {fileID: 841392013}
+  - {fileID: 2004024203}
 --- !u!1 &1751804331 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2700516532928915336, guid: cecb0817382600e4781f939b6baaec4c,
