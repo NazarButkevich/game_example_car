@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657946, g: 0.49641383, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657975, g: 0.4964143, b: 0.57481766, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -503,36 +503,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 752073695087352088}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &841392014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 841392013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d385d777b956cbf4182fc11a9f811345, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &938755061 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6027715411883092311, guid: ae66d1b7a39744b478c6674ef51df6b2,
     type: 3}
   m_PrefabInstance: {fileID: 6027715412136045218}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &938755062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938755061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d385d777b956cbf4182fc11a9f811345, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,18 +548,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 6464647529527507082}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1464934284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1464934283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d385d777b956cbf4182fc11a9f811345, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
@@ -716,36 +680,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2700516534402829859}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1751804332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1751804331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d385d777b956cbf4182fc11a9f811345, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2004024203 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7722874278144205934, guid: 7f127520da2ef5346a52480f42e92eea,
     type: 3}
   m_PrefabInstance: {fileID: 7722874280106237925}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2004024204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2004024203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d385d777b956cbf4182fc11a9f811345, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &752073695087352088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -830,7 +770,7 @@ PrefabInstance:
     - target: {fileID: 2700516532928855178, guid: cecb0817382600e4781f939b6baaec4c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.09
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 2700516532928855178, guid: cecb0817382600e4781f939b6baaec4c,
         type: 3}
@@ -950,6 +890,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4412548894202033206, guid: a272aa982936858459402fd906bcf809,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4212047
+      objectReference: {fileID: 0}
+    - target: {fileID: 4412548894202033206, guid: a272aa982936858459402fd906bcf809,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7889037
+      objectReference: {fileID: 0}
+    - target: {fileID: 4412548894202033206, guid: a272aa982936858459402fd906bcf809,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3586177
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a272aa982936858459402fd906bcf809, type: 3}
