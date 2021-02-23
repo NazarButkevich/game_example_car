@@ -292,6 +292,7 @@ MonoBehaviour:
   jumpForce: 20
   gravityModifier: 4
   isOnGround: 1
+  gameOver: 0
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,7 +532,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1466407214}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45.744938, y: 2.4661214, z: 32.147896}
+  m_LocalPosition: {x: -35.3, y: 7.5, z: 32.147896}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -551,7 +552,7 @@ GameObject:
   - component: {fileID: 2014335012}
   m_Layer: 9
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -712,6 +713,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ' obstacle'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688630758050817400, guid: 8e348495b256952438df9ad11fae616d,
+        type: 3}
+      propertyPath: m_TagString
+      value: obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 4938148646379426979, guid: 8e348495b256952438df9ad11fae616d,
         type: 3}
