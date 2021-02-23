@@ -275,7 +275,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 122
   m_CollisionDetection: 0
 --- !u!114 &448740909
 MonoBehaviour:
@@ -289,8 +289,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 245a1842622746b41aa9cca464a35292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 10
-  gravityModifier: 10
+  jumpForce: 20
+  gravityModifier: 7
   isOnGround: 1
 --- !u!1 &534669902
 GameObject:
@@ -384,6 +384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 835818921}
   - component: {fileID: 835818920}
+  - component: {fileID: 835818922}
   m_Layer: 9
   m_Name: Background
   m_TagString: Untagged
@@ -453,6 +454,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &835818922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835818919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651f16e4fa662ba4795ba5c3c677da97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1466407214
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,7 +639,7 @@ PrefabInstance:
     - target: {fileID: 4688630758050500952, guid: 8e348495b256952438df9ad11fae616d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.99
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4688630758050500952, guid: 8e348495b256952438df9ad11fae616d,
         type: 3}
@@ -672,6 +685,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ' obstacle'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938148646379426979, guid: 8e348495b256952438df9ad11fae616d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.47857666
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938148646379426979, guid: 8e348495b256952438df9ad11fae616d,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.06725311
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e348495b256952438df9ad11fae616d, type: 3}
