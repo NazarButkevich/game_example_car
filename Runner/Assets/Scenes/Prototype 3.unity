@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -527,7 +527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 923b2281ed64aea479be3b347f0a9eaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstaclePrefab: {fileID: 0}
+  obstaclePrefab: {fileID: 2144493570}
 --- !u!4 &1466407216
 Transform:
   m_ObjectHideFlags: 0
@@ -702,3 +702,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e348495b256952438df9ad11fae616d, type: 3}
+--- !u!1 &2144493570 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7424925603321830473, guid: 8e348495b256952438df9ad11fae616d,
+    type: 3}
+  m_PrefabInstance: {fileID: 2116569086}
+  m_PrefabAsset: {fileID: 0}
